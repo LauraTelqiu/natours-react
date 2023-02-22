@@ -6,11 +6,14 @@ import nat3 from "./img/nat-3.jpg"
 
 function AboutImages() {
   return (
-    <div className="composition">
+    <div className="col-1-of-2">
+      <div className="composition">
 
-      <img src={nat1} alt="image1" className="composition__photo composition__photo--p1" />
-      <img src={nat2} alt="image2" className="composition__photo composition__photo--p2" />
-      <img src={nat3} alt="image3" className="composition__photo composition__photo--p3" />
+        <img src={nat1} alt="image1" className="composition__photo composition__photo--p1" />
+        <img src={nat2} alt="image2" className="composition__photo composition__photo--p2" />
+        <img src={nat3} alt="image3" className="composition__photo composition__photo--p3" />
+      </div>
+
     </div>
   )
 }

@@ -26,9 +26,9 @@ function About() {
 
           <a href="http" className="btn-text">Learn more &rarr;</a>
         </div>
-        <div className="col-1-of-2">
-          <AboutImages />
-        </div>
+
+        <AboutImages />
+
       </div>
     </section>
   )

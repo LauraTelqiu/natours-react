@@ -2,6 +2,7 @@ import React from 'react';
 import nat1 from '../img/nat-1-large.jpg'
 import nat2 from '../img/nat-2-large.jpg'
 import nat3 from '../img/nat-3-large.jpg'
+import '../sass/main.css'
 
 
 function AboutImages() {

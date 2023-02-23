@@ -191,8 +191,8 @@ body {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(-2px);
 }
-.btn-text:avtive {
-  box-shadow: 0.5 1rem 1rem rgba(0, 0, 0, 0.15);
+.btn-text:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0);
 }
 

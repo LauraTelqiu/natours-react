@@ -9,7 +9,6 @@
   @include clearfix;
 
   [class^="col-"] {
-    background-color: red;
     float: left;
 
     &:not(:last-child) {

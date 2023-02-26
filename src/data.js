@@ -33,3 +33,18 @@ export const features = [
     text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
   },
 ];
+
+export const tours = [
+  {
+    id: 1,
+    title: "Col 1 of 3"
+  },
+  {
+    id: 2,
+    title: "Col 1 of 3",
+  },
+  {
+    id: 3,
+    title: "Col 1 of 3",
+  }
+]

@@ -7,7 +7,7 @@ function TourCards() {
     <div className="row">
 
       {tours.map((tour) => {
-        const { id, cardPicture, heading, span, length, capacity, guides, sleep, diffculty, cardSideBack } = tour;
+        const { id, cardPicture, heading, span, price, length, capacity, guides, sleep, diffculty, cardSideBack } = tour;
         return (
           <div key={id} className="col-1-of-3">
             <div className="card">
@@ -15,11 +15,12 @@ function TourCards() {
                 <div className={`card__picture ${cardPicture}`}>
                   &nbsp;
                 </div>
+
                 <h4 className="card__heading">
                   <span className={`card__heading-span ${span}`}
-                  >{heading}</span
-                  >
+                  >{heading}</span>
                 </h4>
+
                 <div className="card__details">
                   <ul>
                     <li>{length}</li>
@@ -29,9 +30,16 @@ function TourCards() {
                     <li>{diffculty}</li>
                   </ul>
                 </div>
-
               </div>
-              <div className={`card__side card__side--back ${cardSideBack}`}>BACK</div>
+              <div className={`card__side card__side--back ${cardSideBack}`}>
+                <div className="card__cta">
+                  <div className="card__price-box">
+                    <p className="card__price-only">Only</p>
+                    <p className="card__price-value">${price}</p>
+                  </div>
+                  <a href="http" class="btn btn--white">Book now!</a>
+                </div>
+              </div>
 
 
             </div>

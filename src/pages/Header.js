@@ -1,6 +1,7 @@
-import React from 'react'
-import logo from "../img/logo-white.png"
-import '../sass/main.css'
+import React from "react";
+import logo from "../img/logo-white.png";
+
+import "../sass/main.css";
 
 function Header() {
   return (
@@ -15,10 +16,12 @@ function Header() {
           <span className="heading-primary--sub">is where life happens</span>
         </h1>
 
-        <a href="http//" className="btn btn--white btn--animated">Discover our tours</a>
+        <a href="http//" className="btn btn--white btn--animated">
+          Discover our tours
+        </a>
       </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

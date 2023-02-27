@@ -46,7 +46,6 @@ export const tours = [
     sleep: "Sleep in cozy hotels",
     diffculty: "Difficulty: easy",
     price: "397",
-    btn: "Book Now",
     cardSideBack: "card__side--back-1",
 
   },
@@ -61,7 +60,6 @@ export const tours = [
     sleep: "Sleep in provided tents",
     diffculty: "Difficulty: medium",
     price: "597",
-    btn: "Book Now",
     cardSideBack: "card__side--back-2",
   },
   {
@@ -75,7 +73,6 @@ export const tours = [
     sleep: "Sleep in provided tents",
     diffculty: "Difficulty: hard",
     price: "997",
-    btn: "Book Now",
     cardSideBack: "card__side--back-3",
   }
 ];

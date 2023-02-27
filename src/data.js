@@ -37,14 +37,17 @@ export const features = [
 export const tours = [
   {
     id: 1,
-    title: "Col 1 of 3"
+    frontTitle: "Front Text",
+    backTitle: 'Back Text'
   },
   {
     id: 2,
-    title: "Col 1 of 3",
+    frontTitle: "Front Text",
+    backTitle: 'Back Text'
   },
   {
     id: 3,
-    title: "Col 1 of 3",
+    frontTitle: "Front Text",
+    backTitle: 'Back Text'
   }
 ]

@@ -38,16 +38,22 @@ export const tours = [
   {
     id: 1,
     frontTitle: "Front Text",
-    backTitle: 'Back Text'
+    backTitle: 'Back Text',
+    className: "card__side--back-1"
   },
   {
     id: 2,
     frontTitle: "Front Text",
-    backTitle: 'Back Text'
+    backTitle: 'Back Text',
+    className: "card__side--back-2"
   },
   {
     id: 3,
     frontTitle: "Front Text",
-    backTitle: 'Back Text'
+    backTitle: 'Back Text',
+    className: "card__side--back-3"
+
+
+
   }
 ]

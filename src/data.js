@@ -37,23 +37,23 @@ export const features = [
 export const tours = [
   {
     id: 1,
-    frontTitle: "Front Text",
-    backTitle: 'Back Text',
-    className: "card__side--back-1"
+    cardPicture: "card__picture--1",
+    heading: "Heading",
+    details: "Details",
+    cardSideBack: "card__side--back-1",
   },
   {
     id: 2,
-    frontTitle: "Front Text",
-    backTitle: 'Back Text',
-    className: "card__side--back-2"
+    cardPicture: "card__picture--2",
+    heading: "Heading",
+    details: "Details",
+    cardSideBack: "card__side--back-2",
   },
   {
     id: 3,
-    frontTitle: "Front Text",
-    backTitle: 'Back Text',
-    className: "card__side--back-3"
-
-
-
+    cardPicture: "card__picture--3",
+    heading: "Heading",
+    details: "Details",
+    cardSideBack: "card__side--back-3",
   }
-]
+];

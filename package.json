@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^8.0.0"
+    "node-sass": "^8.0.0",
+    "url-loader": "^4.1.1"
   }
 }

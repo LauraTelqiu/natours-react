@@ -1,3 +1,7 @@
+import photo1 from './img/nat-8.jpg'
+// import photo2 from './img/nat-9.jpg'
+
+
 export const pageLinks = [
   { id: 1, href: "#header", text: "home" },
   { id: 2, href: "#about", text: "about us" },
@@ -47,7 +51,6 @@ export const tours = [
     diffculty: "Difficulty: easy",
     price: "397",
     cardSideBack: "card__side--back-1",
-
   },
   {
     id: 2,
@@ -74,6 +77,21 @@ export const tours = [
     diffculty: "Difficulty: hard",
     price: "997",
     cardSideBack: "card__side--back-3",
-  }
+  },
 ];
-
+export const stories = [
+  {
+    id: 1,
+    img: photo1,
+    name: "Mary Smith",
+    heading: " I had the best week ever with my family",
+    desc: "Lorem ipsum dolor sit ame consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.",
+  },
+  // {
+  //   id: 2,
+  //   img: "./img/nat-9.jpg",
+  //   name: "Jack Wilson",
+  //   heading: "WOW! My life is completely different now",
+  //   desc: "Lorem ipsum dolor sit ame consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.",
+  // }
+];

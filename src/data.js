@@ -1,5 +1,5 @@
 import photo1 from './img/nat-8.jpg'
-// import photo2 from './img/nat-9.jpg'
+import photo2 from './img/nat-9.jpg'
 
 
 export const pageLinks = [
@@ -87,11 +87,11 @@ export const stories = [
     heading: " I had the best week ever with my family",
     desc: "Lorem ipsum dolor sit ame consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.",
   },
-  // {
-  //   id: 2,
-  //   img: "./img/nat-9.jpg",
-  //   name: "Jack Wilson",
-  //   heading: "WOW! My life is completely different now",
-  //   desc: "Lorem ipsum dolor sit ame consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.",
-  // }
+  {
+    id: 2,
+    img: photo2,
+    name: "Jack Wilson",
+    heading: "WOW! My life is completely different now",
+    desc: "Lorem ipsum dolor sit ame consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.",
+  }
 ];

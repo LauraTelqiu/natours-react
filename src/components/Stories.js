@@ -5,14 +5,13 @@ function Stories() {
   return (
     <section className="section-stories">
       <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">We make people happy</h2>
+        <h2 className="heading-secondary">We make people genuinely happy</h2>
       </div>
-
-      <div className="row">
-        {stories.map((story) => {
-          const { id, img, name, heading, desc } = story;
-          return (
-            <div key={id} className="story">
+      {stories.map((story) => {
+        const { id, img, name, heading, desc } = story;
+        return (
+          <div key={id} className="row">
+            <div className="story">
               <figure className="story__shape">
                 <img src={img} alt="person on a tour" className="story__img" />
                 <figcaption className="story__caption">{name} </figcaption>
@@ -24,8 +23,14 @@ function Stories() {
                 <p>{desc}</p>
               </div>
             </div>
-          );
-        })}
+          </div>
+        );
+      })}
+
+      <div className="u-center-text u-margin-top-huge">
+        <a href="h" className="btn-text">
+          Read all stories &rarr;
+        </a>
       </div>
     </section>
   );

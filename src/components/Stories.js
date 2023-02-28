@@ -10,11 +10,12 @@ function Stories() {
 
       <div className="row">
         {stories.map((story) => {
-          const { id, img, heading, desc } = story;
+          const { id, img, name, heading, desc } = story;
           return (
             <div key={id} className="story">
               <figure className="story__shape">
                 <img src={img} alt="person on a tour" className="story__img" />
+                <figcaption className="story__caption">{name} </figcaption>
               </figure>
               <div class="story__text">
                 <h3 class="heading-tertiary u-margin-bottom-small">

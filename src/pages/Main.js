@@ -1,5 +1,5 @@
 import React from 'react'
-import Stories from '../components/Stories'
+import Stories from "./Stories"
 import About from './About'
 import Features from './Features'
 import Tours from './Tours'

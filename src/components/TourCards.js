@@ -37,7 +37,7 @@ function TourCards() {
                     <p className="card__price-only">Only</p>
                     <p className="card__price-value">${price}</p>
                   </div>
-                  <a href="http" class="btn btn--white">Book now!</a>
+                  <a href="http" className="btn btn--white">Book now!</a>
                 </div>
               </div>
 

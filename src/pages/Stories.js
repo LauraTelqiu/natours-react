@@ -7,8 +7,8 @@ function Stories() {
   return (
     <section className="section-stories">
       <div className="bg-video">
-        <div class="bg-video">
-          <video class="bg-video__content" autoplay muted loop>
+        <div className="bg-video">
+          <video className="bg-video__content" autoPlay muted loop>
             <source src={mp4} type="video/mp4" />
             <source src={webm} type="video/webm" />
             Your browser is not supported!
@@ -27,8 +27,8 @@ function Stories() {
                 <img src={img} alt="person on a tour" className="story__img" />
                 <figcaption className="story__caption">{name} </figcaption>
               </figure>
-              <div class="story__text">
-                <h3 class="heading-tertiary u-margin-bottom-small">
+              <div className="story__text">
+                <h3 className="heading-tertiary u-margin-bottom-small">
                   {heading}
                 </h3>
                 <p>{desc}</p>

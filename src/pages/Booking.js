@@ -1,16 +1,19 @@
 import React from 'react'
-import Form from '../sass/components/Form'
+import Form from '../components/Form'
 
 
 function Booking() {
   return (
-    <section className='section-book'>
-      <div className='row'>
-        <div className='book'>
-          <Form />
+    <section className="section-book">
+      <div className="row">
+        <div className="book">
+          <div class="book__form">
+            <Form />
 
+          </div>
         </div>
       </div>
+
 
 
     </section>

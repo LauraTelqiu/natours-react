@@ -4,7 +4,7 @@ function Form() {
   return (
     <form action="#" className="form">
       <div className="u-margin-bottom-medium">
-        <h2 className="heading-secondary">Start booking now</h2>
+        <h2 className="heading-secondary">Book Now</h2>
       </div>
 
       <div className="form__group">

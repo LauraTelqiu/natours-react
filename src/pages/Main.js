@@ -3,6 +3,7 @@ import Stories from "./Stories"
 import About from './About'
 import Features from './Features'
 import Tours from './Tours'
+import Booking from './Booking'
 
 function Main() {
   return (
@@ -11,6 +12,7 @@ function Main() {
       <Features />
       <Tours />
       <Stories />
+      <Booking />
     </div>
   )
 }

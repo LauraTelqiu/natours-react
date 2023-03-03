@@ -7,7 +7,7 @@ function Booking() {
     <section className="section-book">
       <div className="row">
         <div className="book">
-          <div class="book__form">
+          <div className="book__form">
             <Form />
 
           </div>

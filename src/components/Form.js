@@ -15,7 +15,7 @@ function Form() {
           id="name"
           required
         />
-        <label for="name" className="form__label">Full name</label>
+        <label htmlFor="name" className="form__label">Full name</label>
       </div>
 
       <div className="form__group">
@@ -26,7 +26,7 @@ function Form() {
           id="email"
           required
         />
-        <label for="email" className="form__label">Email address</label>
+        <label htmlFor="email" className="form__label">Email address</label>
       </div>
 
       <div className="form__group u-margin-bottom-medium">
@@ -37,7 +37,7 @@ function Form() {
             id="small"
             name="size"
           />
-          <label for="small" className="form__radio-label">
+          <label htmlFor="small" className="form__radio-label">
             <span className="form__radio-button"></span>
             Small tour group
           </label>
@@ -50,16 +50,14 @@ function Form() {
             id="large"
             name="size"
           />
-          <label for="large" className="form__radio-label">
+          <label htmlFor="large" className="form__radio-label">
             <span className="form__radio-button"></span>
             Large tour group
           </label>
         </div>
       </div>
 
-      <div className="form__group">
-        <button className="btn btn--green">Next step &rarr;</button>
-      </div>
+
     </form>
   )
 }

@@ -95,3 +95,12 @@ export const stories = [
     desc: "Lorem ipsum dolor sit ame consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.",
   }
 ];
+export const footerLinks = [
+  { id: 1, href: "#company", text: "Company" },
+  { id: 2, href: "#contact", text: "Contact Us" },
+  { id: 3, href: "#careers", text: "Careers" },
+  { id: 4, href: "#policy", text: "Privacy Policy" },
+  { id: 5, href: "#terms", text: "Terms" },
+
+
+]

@@ -56,8 +56,8 @@ function Form() {
           </label>
         </div>
       </div>
-      <div class="form__group">
-        <button class="btn btn--green">Next step &rarr;</button>
+      <div className="form__group">
+        <button className="btn btn--green">Next step &rarr;</button>
       </div>
 
 

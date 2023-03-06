@@ -7,7 +7,7 @@ function TourCards() {
     <div className="row">
 
       {tours.map((tour) => {
-        const { id, cardPicture, heading, span, price, length, capacity, guides, sleep, diffculty, cardSideBack } = tour;
+        const { id, cardPicture, heading, span, price, length, capacity, guides, sleep, difficulty, cardSideBack } = tour;
         return (
           <div key={id} className="col-1-of-3">
             <div className="card">
@@ -27,7 +27,7 @@ function TourCards() {
                     <li>{capacity}</li>
                     <li>{guides}</li>
                     <li>{sleep}</li>
-                    <li>{diffculty}</li>
+                    <li>{difficulty}</li>
                   </ul>
                 </div>
               </div>

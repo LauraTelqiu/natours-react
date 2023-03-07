@@ -3,11 +3,11 @@ import photo2 from './img/nat-9.jpg'
 
 
 export const navLinks = [
-  { id: 1, href: "#about", span: "01", text: "About" },
-  { id: 2, href: "#benefits", span: "02", text: "Your Benefits" },
-  { id: 3, href: "#popular", span: "03", text: "Popular Tours" },
-  { id: 4, href: "#reviews", span: "04", text: "reviews" },
-  { id: 5, href: "#Book", span: "05", text: "Book Now" }
+  { id: 1, href: "#about", text: "About" },
+  { id: 2, href: "#benefits", text: "Your Benefits" },
+  { id: 3, href: "#popular", text: "Popular Tours" },
+  { id: 4, href: "#reviews", text: "reviews" },
+  { id: 5, href: "#Book", text: "Book Now" }
 ];
 
 export const features = [

@@ -3,7 +3,7 @@ import { features } from "../data";
 
 function Features() {
   return (
-    <section className="section-features">
+    <section className="section-features" id="benefits">
       <div className="row">
         {features.map((feature) => {
           const { id, icon, title, text } = feature;

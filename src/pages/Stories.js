@@ -5,7 +5,7 @@ import Video from '../components/Video'
 
 function Stories() {
   return (
-    <section className="section-stories">
+    <section className="section-stories" id='reviews'>
       <Video />
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">We make people genuinely happy</h2>

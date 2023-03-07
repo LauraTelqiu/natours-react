@@ -5,9 +5,9 @@ import photo2 from './img/nat-9.jpg'
 export const navLinks = [
   { id: 1, href: "#about", text: "About" },
   { id: 2, href: "#benefits", text: "Your Benefits" },
-  { id: 3, href: "#popular", text: "Popular Tours" },
+  { id: 3, href: "#tours", text: "Popular Tours" },
   { id: 4, href: "#reviews", text: "reviews" },
-  { id: 5, href: "#Book", text: "Book Now" }
+  { id: 5, href: "#book", text: "Book Now" }
 ];
 
 export const features = [

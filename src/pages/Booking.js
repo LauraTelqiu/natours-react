@@ -4,7 +4,7 @@ import Form from '../components/Form'
 
 function Booking() {
   return (
-    <section className="section-book">
+    <section className="section-book" id="book">
       <div className="row">
         <div className="book">
           <div className="book__form">

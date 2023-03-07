@@ -3,7 +3,7 @@ import TourCards from '../components/TourCards'
 
 function Tours() {
   return (
-    <section className="section-tours" id="section-tours">
+    <section className="section-tours" id="tours">
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
           Most popular tours

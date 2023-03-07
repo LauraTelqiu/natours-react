@@ -2,12 +2,12 @@ import photo1 from './img/nat-8.jpg'
 import photo2 from './img/nat-9.jpg'
 
 
-export const pageLinks = [
-  { id: 1, href: "#header", text: "home" },
-  { id: 2, href: "#about", text: "about us" },
-  { id: 3, href: "#rooms", text: "rooms" },
-  { id: 4, href: "#reviews", text: "reviews" },
-  { id: 5, href: "#footer", text: "contact" },
+export const navLinks = [
+  { id: 1, href: "#about", span: "01", text: "About" },
+  { id: 2, href: "#benefits", span: "02", text: "Your Benefits" },
+  { id: 3, href: "#popular", span: "03", text: "Popular Tours" },
+  { id: 4, href: "#reviews", span: "04", text: "reviews" },
+  { id: 5, href: "#Book", span: "05", text: "Book Now" }
 ];
 
 export const features = [

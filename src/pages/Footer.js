@@ -33,7 +33,7 @@ function Footer() {
             <a href="#" className="footer__link">
               Laura Telqiu
             </a>
-            &nbsp; for educational purposes, with the guidance and support of the Advanced CSS and Sass Udemy course, instructed by Jonas Schmedtmann
+            &nbsp; for educational purposes, with the guidance and support of the Advanced CSS and Sass Udemy course, instructed by Jonas Schmedtmann.
           </p>
 
 

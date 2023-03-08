@@ -5,6 +5,7 @@ import Main from "./pages/Main";
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Main />
       <Footer />
+
 
 
     </div>

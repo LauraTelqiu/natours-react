@@ -2,7 +2,7 @@ import React from 'react'
 
 function Form() {
   return (
-    <form action="#" className="form">
+    <form action="#" className="form" id="form">
       <div className="u-margin-bottom-medium">
         <h2 className="heading-secondary">Book Now</h2>
       </div>

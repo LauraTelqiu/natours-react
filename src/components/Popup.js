@@ -1,22 +1,22 @@
 import React from "react";
 import nat8 from '../img/nat-8.jpg'
-import nat9 from '../img/nat-8.jpg'
+import nat9 from '../img/nat-9.jpg'
 
 function Popup() {
   return (
     <div className="popup" id="popup">
       <div className="popup__content">
         <div className="popup__left">
-
           <img src={nat8} alt="Tour" className="popup__img" />
           <img src={nat9} alt="Tour" className="popup__img" />
         </div>
         <div className="popup__right">
+
           <h2 className="heading-secondary u-margin-bottom-small">
             Book now
           </h2>
           <h3 className="heading-tertiary u-margin-bottom-small">
-            Important &ndash;  Read the terms and conditions before booking.
+            Important &ndash;Review our terms before making a reservation
           </h3>
           <p className="popup__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -34,7 +34,7 @@ function Popup() {
             donec. Sit amet facilisis magna etiam. Imperdiet sed euismod nisi
             porta.
           </p>
-          <a href="#booking" className="btn btn--green">Book now</a>
+          <a href="#form" className="btn btn--green">Book now</a>
         </div>
       </div>
     </div>

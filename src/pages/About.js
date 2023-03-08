@@ -24,7 +24,7 @@ function About() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla deserunt voluptatum nam.
           </p>
 
-          <a href="http" className="btn-text">Learn more &rarr;</a>
+          <a href="#benefits" className="btn-text">Learn more &rarr;</a>
         </div>
 
         <AboutImages />

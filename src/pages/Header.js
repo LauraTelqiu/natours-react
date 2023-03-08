@@ -16,7 +16,7 @@ function Header() {
           <span className="heading-primary--sub">is where life happens</span>
         </h1>
 
-        <a href="http//" className="btn btn--white btn--animated">
+        <a href="#tours" className="btn btn--white btn--animated">
           Discover our tours
         </a>
       </div>

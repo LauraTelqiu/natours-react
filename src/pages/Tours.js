@@ -11,7 +11,7 @@ function Tours() {
       </div>
       <TourCards />
       <div className="u-center-text u-margin-top-huge">
-        <a href="http" className="btn btn--green">Discover all tours</a>
+        <a href="#tours" className="btn btn--green">Discover all tours</a>
       </div>
     </section>
   )

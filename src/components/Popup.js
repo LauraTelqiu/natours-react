@@ -11,12 +11,13 @@ function Popup() {
           <img src={nat9} alt="Tour" className="popup__img" />
         </div>
         <div className="popup__right">
+          <a href="#tours" className="popup__close">&times;</a>
 
           <h2 className="heading-secondary u-margin-bottom-small">
             Book now
           </h2>
           <h3 className="heading-tertiary u-margin-bottom-small">
-            Important &ndash;Review our terms before making a reservation
+            Important &ndash; Review our terms before making a reservation
           </h3>
           <p className="popup__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

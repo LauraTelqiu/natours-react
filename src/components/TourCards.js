@@ -3,22 +3,31 @@ import { tours } from "../data";
 
 function TourCards() {
   return (
-
     <div className="row">
-
       {tours.map((tour) => {
-        const { id, cardPicture, heading, span, price, length, capacity, guides, sleep, difficulty, cardSideBack } = tour;
+        const {
+          id,
+          cardPicture,
+          heading,
+          span,
+          price,
+          length,
+          capacity,
+          guides,
+          sleep,
+          difficulty,
+          cardSideBack,
+        } = tour;
         return (
           <div key={id} className="col-1-of-3">
             <div className="card">
               <div className="card__side card__side--front">
-                <div className={`card__picture ${cardPicture}`}>
-                  &nbsp;
-                </div>
+                <div className={`card__picture ${cardPicture}`}>&nbsp;</div>
 
                 <h4 className="card__heading">
-                  <span className={`card__heading-span ${span}`}
-                  >{heading}</span>
+                  <span className={`card__heading-span ${span}`}>
+                    {heading}
+                  </span>
                 </h4>
 
                 <div className="card__details">
@@ -37,26 +46,17 @@ function TourCards() {
                     <p className="card__price-only">Only</p>
                     <p className="card__price-value">${price}</p>
                   </div>
-                  <a href="http" className="btn btn--white">Book now!</a>
+                  <a href="#popup" className="btn btn--white">
+                    Book now!
+                  </a>
                 </div>
               </div>
-
-
             </div>
           </div>
-
-        )
+        );
       })}
-
-
-
-
-
-
-
-    </div >
-
-  )
+    </div>
+  );
 }
 
 export default TourCards;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { navLinks } from './data'
+import { navLinks } from '../data'
 
 function Navigation() {
   const [showNav, setShowNav] = useState(false)

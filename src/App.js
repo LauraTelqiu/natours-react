@@ -1,6 +1,6 @@
-import Navigation from './Navigation';
-import Footer from "./pages/Footer";
-import Header from "./pages/Header";
+import Navigation from './layout/Navigation';
+import Footer from "./layout/Footer";
+import Header from "./layout/Header";
 import Main from "./pages/Main";
 
 

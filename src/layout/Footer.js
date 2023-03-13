@@ -1,7 +1,6 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { footerLinks } from "../data";
-import footerLogo from "../img/logo-green-2x.png";
+import footerLogo from "../img/logo-green-2x.png"
 
 function Footer() {
   return (
@@ -30,7 +29,7 @@ function Footer() {
         <div className="col-1-of-2">
           <p className="footer__copyright">
             This project is developed by &nbsp;
-            <a href="#" className="footer__link">
+            <a href="#footer" className="footer__link">
               Laura Telqiu
             </a>
             &nbsp; for educational purposes, with the guidance and support of the Advanced CSS and Sass Udemy course, instructed by Jonas Schmedtmann.

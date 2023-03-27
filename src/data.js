@@ -84,7 +84,7 @@ export const stories = [
     id: 1,
     img: photo1,
     name: "Mary Smith",
-    heading: " I had the best week ever with my family",
+    heading: "Such a delightful experience",
     desc: "Lorem ipsum dolor sit ame consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.",
   },
   {

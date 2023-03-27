@@ -8,7 +8,7 @@ function Stories() {
     <section className="section-stories" id='reviews'>
       <Video />
       <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">We make people genuinely happy</h2>
+        <h2 className="heading-secondary">What people are saying</h2>
       </div>
       {stories.map((story) => {
         const { id, img, name, heading, desc } = story;

@@ -1,12 +1,18 @@
 import React from "react";
 import { footerLinks } from "../data";
-import footerLogo from "../img/logo-green-2x.png"
+import footerLogo1x from "../img/logo-green-1x.png"
+import footerLogo2x from "../img/logo-green-2x.png"
+
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer__logo-box">
-        <img src={footerLogo} alt="Full logo" className="footer__logo" />
+        <picture className="footer__logo">
+          <source srcSet={`${footerLogo1x} 1x, ${footerLogo2x} 2x`} media="(max-width: 37.5em)" />
+          <img srcSet={`${footerLogo1x} 1x, ${footerLogo2x} 2x`} alt="Full logo" className="footer__img" />
+        </picture>
+
       </div>
       <div className="row">
         <div className="col-1-of-2">

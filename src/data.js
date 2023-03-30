@@ -21,7 +21,7 @@ export const features = [
     id: 2,
 
     icon: "feature-box__icon icon-basic-compass",
-    title: "Meet nature",
+    title: "Meet nature and more",
     text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
   },
   {
@@ -55,7 +55,7 @@ export const tours = [
   {
     id: 2,
     cardPicture: "card__picture--2",
-    heading: "The Forest Hiker",
+    heading: "Forest Hiker",
     span: "card__heading-span--2",
     length: "7 day tours",
     capacity: "Up to 40 people",
@@ -68,7 +68,7 @@ export const tours = [
   {
     id: 3,
     cardPicture: "card__picture--3",
-    heading: "The Snow Adventurer",
+    heading: "Snow Adventurer",
     span: "card__heading-span--3",
     length: "5 day tours",
     capacity: "Up to 15 people",

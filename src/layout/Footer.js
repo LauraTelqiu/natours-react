@@ -8,11 +8,21 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer__logo-box">
-        <picture className="footer__logo">
-          <source srcSet={`${footerLogo1x} 1x, ${footerLogo2x} 2x`} media="(max-width: 37.5em)" />
-          <img srcSet={`${footerLogo1x} 1x, ${footerLogo2x} 2x`} alt="Full logo" className="footer__img" />
-        </picture>
 
+
+        <picture className="footer__logo">
+          <source
+            srcSet={`${footerLogo1x} 1x,
+              ${footerLogo2x} 2x`}
+            media="(max-width: 37.5em)"
+          />
+          <img
+            srcSet={`${footerLogo1x} 1x,
+             ${footerLogo2x} 2x`}
+            alt="Full logo"
+            className="footer__img"
+          />
+        </picture>
       </div>
       <div className="row">
         <div className="col-1-of-2">

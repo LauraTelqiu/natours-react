@@ -19,19 +19,19 @@ function AboutImages() {
           sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
           alt="Nat-1"
           className="composition__photo composition__photo--p1"
-          src="img/nat-1-large.jpg" />
+          src={natLarge1} />
 
         <img srcSet={`${nat2} 300w, ${natLarge2} 1000w`}
           sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
           alt="Nat-2"
           className="composition__photo composition__photo--p2"
-          src="img/nat-2-large.jpg" />
+          src={natLarge2} />
 
         <img srcSet={`${nat3} 300w, ${natLarge3} 1000w`}
           sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
           alt="Nat-3"
           className="composition__photo composition__photo--p3"
-          src="img/nat-3-large.jpg" />
+          src={natLarge3} />
       </div>
     </div>
 

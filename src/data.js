@@ -49,7 +49,7 @@ export const tours = [
     guides: "2 tour guides",
     sleep: "Sleep in cozy hotels",
     difficulty: "Difficulty: easy",
-    price: "397",
+    price: "497",
     cardSideBack: "card__side--back-1",
   },
   {
@@ -62,7 +62,7 @@ export const tours = [
     guides: "6 tour guides",
     sleep: "Sleep in provided tents",
     difficulty: "Difficulty: medium",
-    price: "597",
+    price: "697",
     cardSideBack: "card__side--back-2",
   },
   {

@@ -19,7 +19,7 @@ function Footer() {
           <img
             srcSet={`${footerLogo1x} 1x,
              ${footerLogo2x} 2x`}
-            alt="Full logo"
+            alt="Full logo" src={footerLogo2x}
             className="footer__img"
           />
         </picture>

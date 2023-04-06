@@ -1,22 +1,24 @@
-import React from 'react'
-import Stories from "./Stories"
-import About from './About'
-import Features from './Features'
-import Tours from './Tours'
-import Booking from './Booking'
-import Popup from '../components/Popup'
+import React from "react";
+import Stories from "./Stories";
+import About from "./About";
+import Features from "./Features";
+import Tours from "./Tours";
+import Booking from "./Booking";
+import Popup from "../components/Popup";
+
+import { features } from "../data";
 
 function Main() {
   return (
     <div>
       <About />
-      <Features />
+      <Features features={features} />
       <Tours />
       <Stories />
       <Booking />
-      <Popup />
+      {/* <Popup /> */}
     </div>
-  )
+  );
 }
 
-export default Main
+export default Main;

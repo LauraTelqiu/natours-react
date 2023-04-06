@@ -1,7 +1,6 @@
 import React from "react";
-import { tours } from "../data";
 
-function TourCards() {
+function TourCards({ tours = [], onTourSelection }) {
   return (
     <div className="row">
       {tours.map((tour) => {
@@ -46,7 +45,11 @@ function TourCards() {
                     <p className="card__price-only">Only</p>
                     <p className="card__price-value">${price}</p>
                   </div>
-                  <a href="#popup" className="btn btn--white">
+                  <a
+                    href="#"
+                    className="btn btn--white"
+                    onClick={() => onTourSelection(tour)}
+                  >
                     Book now!
                   </a>
                 </div>

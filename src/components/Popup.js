@@ -1,21 +1,21 @@
 import React from "react";
-import nat8 from '../img/nat-8.jpg'
-import nat9 from '../img/nat-9.jpg'
+import nat8 from "../img/nat-8.jpg";
+import nat9 from "../img/nat-9.jpg";
 
-function Popup() {
+function Popup({ selectedTour, onClose }) {
   return (
-    <div className="popup" id="popup">
+    <div className="popup">
       <div className="popup__content">
         <div className="popup__left">
           <img src={nat8} alt="Tour" className="popup__img" />
           <img src={nat9} alt="Tour" className="popup__img" />
         </div>
         <div className="popup__right">
-          <a href="#tours" className="popup__close">&times;</a>
+          <a href="#" onClick={onClose} className="popup__close">
+            &times;
+          </a>
 
-          <h2 className="heading-secondary u-margin-bottom-small">
-            Book now
-          </h2>
+          <h2 className="heading-secondary u-margin-bottom-small">Book now</h2>
           <h3 className="heading-tertiary u-margin-bottom-small">
             Important &ndash; Review our terms before making a reservation
           </h3>
@@ -35,7 +35,9 @@ function Popup() {
             donec. Sit amet facilisis magna etiam. Imperdiet sed euismod nisi
             porta.
           </p>
-          <a href="#form" className="btn btn--green">Book now</a>
+          <a href="#form" className="btn btn--green" onClick={onClose}>
+            Book now {selectedTour?.heading}
+          </a>
         </div>
       </div>
     </div>
